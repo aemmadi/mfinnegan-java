@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+		<meta charset ="UTF-8"/>
+		<meta name ="viewport" content ="width=device-width, initial-scale =1">
+		<title>
+			Data Types
+		</title>
+		<link rel ="stylesheet" href ="style.css">
+    </head>
+    <body><p>	
+        <h1><b><div id="main">Data Types</b></h1>
+        To make variables in Java, they need a data type. A data type tells the Java compiler what kind of data a variable is.</div>
+        <hr>
+        <h2><b>Integers</b></h2>
+        To declare integer variables:
+		<pre class ="code">int a = 0;</pre>
+        If you want to change the value of a variable:
+		<pre class ="code">a = 20;</pre>
+        The "int" primitive type can only store integers. The following would not work: 
+        <pre class ="code">a = 5.6;</pre>
+        <hr>
+        <h2><b>Decimals</b></h2>
+        To declare variables that store decimals : 
+        <pre class ="code">double d = 4.5; </pre>
+        The following code will output 4 : <br>
+        <pre class ="code">System.out.println(4.0);</pre>
+        Another way to declare decimals is to use "float" : 
+        <pre class ="code">float f = 4.5f;</pre>
+        Floats must have an "f" letter at the end of the decimal.
+        <hr>
+        <h2><b>Strings</b></h2>
+        To store a series of characters in a variable, use "String" data type : 
+        <pre class ="code">String sentence = "hello world"; </pre>
+         Strings are made up of characters, so you can access each of their characters through their index. Indexes always start at 0. The following code will print "h":
+        <pre class ="code">System.out.println(sentence.charAt(0));</pre>
+        When 2 or more strings are added together, that is called "Concatenation" : 
+        <pre class ="code">String word1 = "hello";</pre>
+        <pre class ="code">String word2 = "world";</pre>
+        <pre class ="code">String sentence = word1 + word2;</pre> </p>
+    </body>
+</html>
